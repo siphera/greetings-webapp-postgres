@@ -68,3 +68,12 @@
 .output {
     text-align: center;
 }
+.times {
+    text-align: center;
+    color: #FF0000;
+    font-size: 30px;
+}
+
+.timesname {
+    color: #0000FF
+}

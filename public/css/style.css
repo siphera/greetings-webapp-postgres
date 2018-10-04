@@ -1,0 +1,70 @@
+#main-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.4rem;
+    background-color: #efefef;
+    text-align: center;
+}
+.InputText {
+    text-transform: capitalize;
+    text-align: center
+}
+
+.view {
+    text-align: center;
+}
+
+.box {
+    padding: 0.75em;
+    border-radius: 0.5em;
+    border: 1px solid #ddd;
+    height: 600px;
+    margin-bottom: 1em;
+    box-shadow: 10px 10px #5a5858;
+}
+
+.greetings {
+    background-color: aqua;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.greet-h1 {
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.counter {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid rgb(111, 0, 255);
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flash {
+    color: #FF0000;
+    text-align: center;
+    border: 1px solid #FF0000;
+    background-color: aqua;
+    font-weight: bold;
+    height: auto;
+    padding: 10px;
+}
+
+.outputRes {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 2px 2px 8px aqua;
+}
+
+.output {
+    text-align: center;
+}

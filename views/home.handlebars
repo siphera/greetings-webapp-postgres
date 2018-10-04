@@ -1,0 +1,76 @@
+<div class="row">
+    <div class="twelve columns greetings">
+        <h1 class="greet-h1">GREETINGS <span class="counter">{{counterdisplay}}</span></h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns">
+        {{#if messages.info}}
+        <div class="entry">
+            <p class="flash"> {{messages.info}}</p>
+        </div>
+        {{/if}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns">
+        <div class="row">
+            <form action="greetings" method="POST">
+                <input class="ten columns nameInputField Name InputText text" type="text" name="firstName" id="clearname"
+                    placeholder="Enter your name here!">
+                <button class="button-primary two columns greetBtn Greetbtn" name="button">Greet</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="four columns">
+                <label>
+                    <input type="radio" name="language" class="language" value="English">
+                    <span>English</span>
+                </label>
+            </div>
+
+            <div class="four columns">
+                <label>
+                    <input type="radio" name="language" class="language" value="IsiXhosa">
+                    <span>IsiXhosa</span>
+                </label>
+            </div>
+
+            <div class="four columns">
+                <label>
+                    <input type="radio" name="language" class="language" value="Afrikaans">
+                    <span>Afrikaans</span>
+                </label>
+            </div>
+        </div>
+
+        </form>
+        <br>
+    </div>
+</div>
+<div class="row">
+    <div class="twelve columns">
+        <div class="output">
+            <span class="outputRes">{{displaymessage}}</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="twelve columns ">
+        <p class="view"><a href="/greeted">click here to view Greeted names</a></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="twelve columns" id="main-footer">
+        <footer>
+            <p>Developed by Siphenkosi Salman &copy; 2018</p>
+        </footer>
+    </div>
+</div>

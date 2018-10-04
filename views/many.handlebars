@@ -10,25 +10,21 @@
         </div>
     </form>
 
-    <form action="/reset" method="post">
-        <div class="six columns">
-            <button class="button-primary Clearbtn" type="submit" name="">CLEAR DB</button>
-        </div>
-    </form>
+    
 </div>
-
-<br>
-<br>
 
 <p class="times"><span class="timesname">{{names}}</span> has been greet {{counts}} time(s)</p>
 
-<br>
-<br>
-<form action="/greeted" method="get">
+<form class="six columns" action="/greeted" method="get">
     <div class="row">
-        <div class="twelve columns">
+        <div class="six columns">
             <button class="button-primary Greetbtn" type="submit" name="button">BACK </button>
         </div>
+    </div>
+</form>
+<form action="/reset" method="post">
+    <div class="six columns">
+        <button class="button-primary Clearbtn" type="submit" name="">CLEAR DB</button>
     </div>
 </form>
 

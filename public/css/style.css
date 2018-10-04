@@ -69,6 +69,8 @@
     text-align: center;
 }
 .times {
+    padding-bottom: 60px;
+    padding-top: 60px;
     text-align: center;
     color: #FF0000;
     font-size: 30px;

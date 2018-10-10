@@ -28,7 +28,7 @@ describe('The basic database web app tests', function () {
 
     });
 
-    it('should return  " hey salman "  when salman is greeted in English  ', async function () {
+    it('should return  " hello salman "  when salman is greeted in English  ', async function () {
 
         // the Factory Function is called Greet
         let gree = Greetfactory(pool);

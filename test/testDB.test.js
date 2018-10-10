@@ -34,7 +34,7 @@ describe('The basic database web app tests', function () {
         let gree = Greetfactory(pool);
 
 
-        assert.equal("Hey, salman", await gree.GreetLanguage("English", 'salman'));
+        assert.equal("Hello, salman", await gree.GreetLanguage("English", 'salman'));
 
     });
     it('should  greet siphenkosi in Afrikaans ', async function () {

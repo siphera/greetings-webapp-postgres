@@ -10,7 +10,7 @@ const pool = new Pool({
     connectionString
 });
 
-describe('The basic database web app tests', function () {
+describe('The greetings with database web app tests', function () {
     beforeEach(async function () {
         // clean the tables before each test run
         await pool.query('delete from greetings');

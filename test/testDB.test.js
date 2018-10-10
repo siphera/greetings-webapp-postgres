@@ -47,7 +47,7 @@ describe('The basic database web app tests', function () {
         assert.equal("Molo, salman", await gree.GreetLanguage("IsiXhosa", 'salman'));
 
     });
-    it('should  greet siphenkosi in Afrikaans ', async function () {
+    it('should return "Halo, siphenkosi" when siphenosi is greeted in Afrikaans ', async function () {
 
         // the Factory Function is called Greet
         let gree = Greetfactory(pool);
